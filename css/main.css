@@ -662,15 +662,35 @@ img {
     width: 180px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .choosing__wrapper {
-    display: block;
-    position: absolute;
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .choosing__wrapper {
+    display: none;
   }
   .choosing__title {
     width: 450px;
-    margin: 0 auto;
-    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .choosing__wrapper {
+    display: none;
+  }
+  .choosing__title {
+    width: 450px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .choosing__wrapper {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .choosing__wrapper {
+    display: none;
   }
 }
 @media only screen and (max-width: 772px) {
