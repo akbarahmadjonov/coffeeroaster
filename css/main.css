@@ -687,10 +687,16 @@ img {
   .choosing__wrapper {
     display: none;
   }
+  .choosing__title {
+    width: 320px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .choosing__wrapper {
     display: none;
+  }
+  .choosing__title {
+    width: 200px;
   }
 }
 @media only screen and (max-width: 772px) {
