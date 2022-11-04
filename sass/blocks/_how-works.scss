@@ -1,0 +1,106 @@
+// How work
+.how-work__title h1 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+
+.how-work__box {
+  display: flex;
+}
+
+.how-work__list {
+  padding: 0;
+  margin: 0;
+  width: 245px;
+}
+
+.how-work__list li {
+  list-style: none;
+}
+
+.how-work__list {
+  margin-right: 40px;
+}
+
+.how-work__title-up {
+  width: 255px;
+}
+
+.how-work__item1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+
+.how-work__item2 {
+  margin-bottom: 40px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.how-work__item3 {
+  margin-bottom: 40px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.how-work a {
+  padding: 15px 31px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 6px;
+  color: #fefcf7;
+  background-color: #0e8784;
+  font-family: "Fraunces 9pt";
+}
+
+.how-work a:hover {
+  background-color: #66d2cf;
+}
+
+// How work
+
+// How work media
+@media only screen and (max-width: 772px) {
+  .how-work__title {
+    text-align: center;
+  }
+
+  .how-work__box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .how-work__button {
+    text-align: center;
+  }
+
+  .how-work__list {
+    margin-right: 0px;
+  }
+
+  .how-work__range {
+    max-width: 100%;
+  }
+}
+// How work media

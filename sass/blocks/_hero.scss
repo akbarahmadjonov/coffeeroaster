@@ -1,0 +1,150 @@
+// Hero section
+.hero {
+  margin-bottom: 156px;
+}
+.hero__inner {
+  padding: 117px 86px;
+  background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.hero__content {
+  width: 495px;
+
+  & h1 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+    font-family: "Fraunces 9pt";
+    margin: 0 0 32px 0;
+  }
+
+  & p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+    margin: 0 0 32px 0;
+  }
+
+  & a {
+    padding: 15px 31px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 900;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 6px;
+    color: #fefcf7;
+    background-color: #0e8784;
+    font-family: "Fraunces 9pt";
+
+    &:hover {
+      background-color: #66d2cf;
+    }
+  }
+}
+
+.hero__text {
+  width: 445px;
+}
+
+// Hero section
+
+// Media Hero
+// Tablet
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .hero__content {
+    width: 329px;
+  }
+  .hero__content h1 {
+    margin: 0 0 24px 0;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+// Mobile
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    text-align: center;
+    width: 329px;
+  }
+
+  .hero__content h1 {
+    margin: 0 0 24px 0;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 529px) {
+  .hero__content {
+    text-align: center;
+    width: 259px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero__content h1 {
+    margin: 0 0 24px 0;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .hero__text {
+    width: 300px;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 460px) {
+  .hero__inner {
+    justify-content: center;
+  }
+  .hero__content {
+    text-align: center;
+    width: 230px;
+    margin: 0 auto;
+  }
+  .hero__content h1 {
+    margin: 0 0 24px 0;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .hero__text {
+    width: 220px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero__inner {
+    background-size: 100% 100%;
+    padding: 50px 50px;
+  }
+  .hero__content {
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero__content h1 {
+    margin: 0 0 24px 0;
+    font-size: 35px;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .hero__text {
+    width: 219px;
+    text-align: center;
+  }
+}
+
+// Media Hero

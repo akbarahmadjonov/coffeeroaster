@@ -1,0 +1,161 @@
+// Coffee types
+.coffee__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee__inner {
+  padding: 106px 0;
+}
+
+.coffee {
+  position: relative;
+}
+
+.coffee__box {
+  z-index: 999;
+}
+
+.coffee__inner::before {
+  content: "";
+  width: 1211px;
+  height: 196px;
+  background-image: url("../images/collection-bg.png");
+  display: inline-block;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -20px;
+}
+
+.coffee__list {
+  padding: 0;
+  margin: 0;
+  width: 255px;
+  text-align: center;
+}
+
+.coffee__item {
+  list-style: none;
+}
+
+.coffee__item--head {
+  margin: 65px 0 24px 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+  font-family: "Fraunces 9pt";
+}
+
+.coffee__item--text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+  font-family: "Barlow";
+}
+
+.coffee__list-1::before {
+  content: "";
+  width: 255px;
+  height: 193px;
+  background-image: url("../images/gran-coffee.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.coffee__list-2::before {
+  content: "";
+  width: 255px;
+  height: 193px;
+  background-image: url("../images/planalto-coffee.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.coffee__list-3::before {
+  content: "";
+  width: 255px;
+  height: 193px;
+  background-image: url("../images/piccollo-coffee.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+.coffee__list-4::before {
+  content: "";
+  width: 255px;
+  height: 193px;
+  background-image: url("../images/danche-coffee.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+
+// Coffee types
+
+// Media Coffee types
+@media only screen and (max-width: 1255px) {
+  .coffee__inner::before {
+    content: "";
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .coffee__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .coffee__inner::before {
+    content: "";
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .coffee__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .coffee__inner {
+    padding: 10px 10px;
+  }
+
+  .coffee__inner::before {
+    content: "";
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+  .coffee__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+  }
+
+  .coffee__inner::before {
+    display: none;
+  }
+
+  .coffee__list {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .coffee__texts {
+    width: 180px;
+  }
+}
+
+// Media Coffee types
