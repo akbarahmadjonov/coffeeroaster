@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("../font/Fraunces9pt-Black.woff2") format("woff2"), url("../font/Fraunces9pt-Black.woff") format("woff");
+  font-weight: 900;
+  display: swap;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../font/Barlow-Bold.woff2") format("woff2"), url("../font/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  display: swap;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("../font/Barlow-Regular.woff2") format("woff2"), url("../font/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  display: swap;
+  font-style: normal;
+  font-display: swap;
+}
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -94,6 +118,14 @@
 .hero__inner {
   padding: 117px 86px;
   background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+
+.hero-about__inner {
+  padding: 117px 86px;
+  background-image: url("../../images/about-hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
@@ -666,7 +698,7 @@
   text-decoration: none;
 }
 .footer__icons a:hover {
-  opacity: 0.7;
+  color: #fdd6ba;
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1116px) {
@@ -719,27 +751,6 @@
     color: #fff;
     text-decoration: none;
   }
-}
-@font-face {
-  font-family: "Fraunces 9pt";
-  src: url("../font/Fraunces9pt-Black.woff2") format("woff2"), url("../font/Fraunces9pt-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("../font/Barlow-Bold.woff2") format("woff2"), url("../font/Barlow-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("../font/Barlow-Regular.woff2") format("woff2"), url("../font/Barlow-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 html {
   height: 100%;

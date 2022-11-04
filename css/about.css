@@ -1,0 +1,75 @@
+.hero__inner {
+  padding: 117px 86px;
+  background-image: url("../images/about-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.commitment__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commitment__content {
+  width: 540px;
+  margin-left: 125px;
+}
+
+.commitment__content h2 {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commitment__content p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  opacity: 0.8;
+}
+
+.commitment__pic img {
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 960px) {
+  .commitment__inner {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .commitment__content {
+    width: 339px;
+    margin-left: 50px;
+  }
+  .commitment__pic img {
+    height: 470px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .commitment__inner {
+    flex-wrap: wrap;
+  }
+  .commitment__content {
+    width: 409px;
+  }
+  .commitment__pic img {
+    height: 327px;
+  }
+}
+@media only screen and (max-width: 446px) {
+  .commitment__content {
+    width: 300px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .commitment__pic img {
+    height: 327px;
+  }
+}/*# sourceMappingURL=about.css.map */
