@@ -11,3 +11,157 @@
 .how-work__item3 {
   color: #fff;
 }
+
+// Coffee section
+.coffee-header {
+  margin: 100px 0 100px 0;
+}
+
+.coffee__wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coffee-left__list .coffee-items-active-1 {
+  color: #0e8784;
+}
+
+.coffee-left__list span {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #cdcecd;
+}
+
+.coffee-left__list ul {
+  padding: 0px 0px 20px 0;
+  margin-bottom: 24px;
+  width: 255px;
+  border-bottom: 2px solid #dfdfdd;
+  cursor: pointer;
+}
+
+.coffee-left__list span {
+  margin-right: 13px;
+}
+
+.coffee-left__list .coffee-items-active {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+}
+
+.coffee-left__list li {
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #adb0b2;
+}
+
+.coffee-left__list li {
+  display: inline;
+}
+
+// Right list down
+
+.coffee-right__header {
+  width: 700px;
+  cursor: pointer;
+}
+
+.coffee-right__title {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.coffee-right__title h1 {
+  margin: 0;
+  display: inline;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 48px;
+  color: #83888f;
+}
+
+.coffee-right__title span::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/coffee-type-arrow-up.svg");
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.coffee-right__list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.coffee-right__list li {
+  list-style: none;
+}
+
+.coffee-right__list {
+  display: flex;
+  width: 700px;
+  cursor: auto;
+}
+
+.coffee-right__box {
+  width: 270px;
+  padding: 32px 28px 50px 28px;
+  margin: 5px 0 56px 0;
+  background: #f4f1eb;
+  border-radius: 8px;
+}
+
+.coffee__jumper {
+  display: none;
+}
+
+.coffee__jumper2 {
+  display: none;
+}
+
+.coffee__jumper3 {
+  display: none;
+}
+
+.coffee__jumper4 {
+  display: none;
+}
+
+.coffee__jumper5 {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.coffee-right__box ul li:nth-child(1) {
+  margin-bottom: 20px;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 32px;
+  color: #333d4b;
+}
+
+.coffee-right__box ul li {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+.coffee-right__box {
+  margin-right: 25px;
+}
+// Coffee section
