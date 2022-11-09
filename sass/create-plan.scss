@@ -11,7 +11,6 @@
 @media only screen and (max-width: 582px) {
   .how-work__bg {
     padding: 100px 50px 100px 50px;
-    background-color: red;
   }
 }
 
@@ -76,6 +75,14 @@
   font-size: 24px;
   line-height: 32px;
   color: #adb0b2;
+}
+
+.coffee-left__list ul:hover li {
+  color: #333d4b;
+}
+
+.coffee-left__list ul:hover span {
+  color: #0e8784;
 }
 
 .coffee-left__list li {
@@ -197,6 +204,76 @@
 }
 // Coffee section
 
+// Coffee section media
+@media only screen and (max-width: 1074px) {
+  .coffee__wrap {
+    justify-content: space-evenly;
+    overflow: hidden;
+  }
+
+  .coffee-left__list ul {
+    width: 220px;
+  }
+
+  .coffee-right__title {
+    width: 740px;
+  }
+
+  .coffee-right__title h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .coffee-header {
+    margin: 70px 0 70px 0;
+  }
+  .coffee__wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .coffee__wrap {
+    overflow: hidden;
+  }
+
+  .coffee-right__title h1 {
+    font-size: 22px;
+  }
+
+  .coffee-right__title {
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .coffee__wrap {
+    overflow: hidden;
+  }
+
+  .coffee-right__title {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .coffee-right__list {
+    display: block;
+  }
+
+  .coffee-right__box {
+    margin: 20px auto;
+  }
+}
+
+// Coffee section media
+
 // Order summary
 .order-summary {
   padding: 30px 60px 27px 60px;
@@ -248,3 +325,56 @@
   background: #66d2cf;
 }
 // Order summary
+
+// Order summary media
+@media only screen and (max-width: 740px) {
+  .order__text {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .order-summary {
+    padding: 20px 40px 20px 40px;
+  }
+
+  .order-summary small {
+    font-size: 20px;
+  }
+
+  .order__text p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 706px) {
+  .order-summary {
+    background-color: transparent;
+  }
+  .order__text {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .order-summary small {
+    font-size: 18px;
+  }
+
+  .order__text p {
+    color: #000;
+  }
+
+  .order__text p {
+    font-size: 18px;
+  }
+
+  .order__link {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .order__link a {
+    float: none;
+    margin-bottom: 40px;
+  }
+}
+
+// Order summary media
