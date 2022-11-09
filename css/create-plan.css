@@ -7,6 +7,17 @@
   background-color: #293038;
 }
 
+@media only screen and (max-width: 582px) {
+  .how-work__bg {
+    padding: 100px 50px 100px 50px;
+    background-color: red;
+  }
+}
+@media only screen and (max-width: 367px) {
+  .how-work__bg {
+    padding: 100px 20px 100px 20px;
+  }
+}
 .how-work__item2,
 .how-work__item3 {
   color: #fff;
