@@ -2,13 +2,19 @@
 .hero {
   margin-bottom: 156px;
 }
+
 .hero__inner {
   padding: 117px 86px;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
 }
+// Webp
+.hero__inner {
+  background-image: url("../../images/herobg.webp");
+}
+// Webp
 
 .hero-about__inner {
   padding: 117px 86px;
@@ -17,6 +23,11 @@
   background-size: 100% 100%;
   border-radius: 10px;
 }
+// Webp
+.hero-about__inner {
+  background-image: url("../../images/about-hero-bg.webp");
+}
+// Webp
 
 .hero__content {
   width: 495px;

@@ -7,6 +7,10 @@
   border-radius: 10px;
 }
 
+.hero__inner {
+  background-image: url("../images/about-hero-bg.webp");
+}
+
 .commitment__inner {
   display: flex;
   justify-content: center;

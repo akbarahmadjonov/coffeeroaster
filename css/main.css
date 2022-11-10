@@ -117,10 +117,14 @@
 
 .hero__inner {
   padding: 117px 86px;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
+}
+
+.hero__inner {
+  background-image: url("../../images/herobg.webp");
 }
 
 .hero-about__inner {
@@ -129,6 +133,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
+}
+
+.hero-about__inner {
+  background-image: url("../../images/about-hero-bg.webp");
 }
 
 .hero__content {
@@ -272,13 +280,17 @@
   content: "";
   width: 1211px;
   height: 196px;
-  background-image: url("../images/collection-bg.png");
+  background-image: url("../../images/collection-bg.png");
   display: inline-block;
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
   top: -20px;
+}
+
+.coffee__inner::before {
+  background-image: url("../../images/collection-bg.webp");
 }
 
 .coffee__list {
@@ -315,7 +327,7 @@
   content: "";
   width: 255px;
   height: 193px;
-  background-image: url("../images/gran-coffee.svg");
+  background-image: url("../../images/gran-coffee.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline-block;
